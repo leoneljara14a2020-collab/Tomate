@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comentarios</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="comment-box">
+    <h2>Dejá tu comentario</h2>
+    <form id="commentForm">
+      <input type="text" id="username" placeholder="Tu nombre (opcional)" />
+      <textarea id="commentText" placeholder="Escribí tu comentario..." required></textarea>
+      <label>
+        <input type="checkbox" id="anonymous" />
+        Comentar como anónimo
+      </label>
+      <button type="submit">Publicar</button>
+    </form>
+    <div id="commentsContainer"></div>
+  </div>
+<a href="../tomate inc.html" class="close-button">✖</a>
+  <script src="coment.js"></script>
+</body>
+</html>
