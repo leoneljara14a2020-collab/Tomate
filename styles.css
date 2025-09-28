@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+
+h1 {
+  color: blue;
+}
+
+html, button{
+	font-family: Quicksand, sans-serif;
+}
+
+body {
+	background-image: url('Fondo.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: white; /* Este color se puede cambiar con JS */
+	color: #555;
+	text-align: center;
+	font-family: Quicksand, sans-serif;
+}
+
+.logo{
+	margin-top:30%;
+	font-size:30px;
+	font-weight:normal;
+}
+
+.brackets{
+	font-family: Advent Pro, sans-serif;
+}
+
+.left{
+	color:tomato;
+}
+
+.right{
+	color:dodgerblue;
+}
+
+.sample{
+	padding:20px;
+	font-size:18px;
+	background: inherit;
+	color:inherit;
+}
+
+#button{
+	margin-top:10px;
+	background:dodgerblue;
+	color:white;
+	width:80%;
+	height:60px;
+	font-size: 20px;
+	outline: none;
+	border:5px solid deepskyblue;
+	border-radius: 5px;
+}
+
+#button:active{
+	transform: scale(0.95);
+}
+
+.btn-tiktok {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  line-height: 60px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.btn-tiktok img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  filter: drop-shadow(0 0 2px #fff);
+}
+		.tiktok-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.btn-tiktok:hover {
+  transform: scale(1.1);
+  background-color: #ff0050;
+  box-shadow: 0 0 15px #ff0050;
+}
+
+.twitter-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.twitter-button:hover {
+  background-color: #0d8ddb;
+}
+
+.twitter-button img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 2px #000);
+}
+
+.chat-icon-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.chat-icon-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
